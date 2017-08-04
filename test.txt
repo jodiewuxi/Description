@@ -1,2 +1,5 @@
-aaabbbb
-cccdddd
+Github  の使い方
+①自宅で構築
+②windowsでGithub から　Clone  新規リポジー、commitなどの操作、熟に使える
+③proxy ある場合、proxyサーバの設定
+④Gitコマンド暗記
