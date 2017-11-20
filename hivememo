@@ -1,0 +1,24 @@
+★data model
+★ETL
+
+The major difference between HQL and SQL is that Hive query executes on Hadoop's infrastructure rather than the traditional database.
+The Hive query execution is going to be like series of automatically generated map reduce Jobs.
+
+1 Before you run hive for the first time, run
+schematool -initSchema -dbType derby
+
+2 If you already ran hive and then tried to initSchema and it's failing:
+mv metastore_db metastore_db.tmp
+
+3 Re run
+schematool -initSchema -dbType derby
+
+
+
+
+trouble
+
+hive  command    error
+
+
+http://private-blog.com/topic/29/hadoop-hive  
